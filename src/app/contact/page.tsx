@@ -2,9 +2,9 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div><figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-  <img className="w-24 h-24 md:w-40 md:h-50 md:rounded-none rounded-full" src="/pic1.jpg" alt="" width="384" height="512"/>
-  <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
+    <div><figure className="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
+  <img className="w-24 h-24 md:w-48 md:h-48 rounded-full mx-auto object-cover" src="/pic3.jpg" alt="" width="384" height="512"/>
+  <div className="pt-6 text-center space-y-4">
     <blockquote>
       <p className="text-lg font-medium">
         “Tailwind CSS is the only framework that I've seen scale
